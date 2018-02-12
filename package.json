@@ -13,7 +13,7 @@
     "lint": "eslint ./ --ignore-path .gitignore",
     "postinstall": "touch secrets.js",
     "seed": "node script/seed.js",
-    "start": "webpack",
+    "start": "node app.js",
     "start-dev-secondary": "NODE_ENV='secondary' npm run build-client-watch & npm run start-server",
     "start-server": "nodemon app.js -e html,js,scss --ignore public",
     "test": "NODE_ENV='test' DATABASE_URL='postgres://localhost:5432/potluck-test' mocha ./server/**/*.spec.js ./server/**/**/*.spec.js ./client/**/*.spec.js --compilers js:babel-register"

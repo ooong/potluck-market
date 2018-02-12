@@ -2,11 +2,13 @@
 
 An app for reducing food waste on a local scale through bartering via Solidity smart contracts and blockchain technology.
 
+
 ## Introduction
 
 Did you buy more eggs than you can use? Have a bumper crop of zucchini? Going out of town soon and won't finish all of your bananas before you leave? Potluck provides an easy way to redirect food that might otherwise go to waste. Define your network, list unwanted items in your 'pantry' and see what others have on offer. Others can request specific items from your pantry via a smart contract, which you can respond to by requesting items from theirs in return, or simply give your items away.
 
 This project was created over a two-week sprint with a team of four collaborators using Node.js, Solidity, Sequelize, Express, React-Redux, HTML & CSS.
+
 
 ## Implementation
 
